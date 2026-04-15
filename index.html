@@ -1,0 +1,111 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="es">\
+<head>\
+  <meta charset="UTF-8">\
+  <title>Productos de Limpieza RMZ</title>\
+\
+  <style>\
+    body \{\
+      font-family: Arial, sans-serif;\
+      background-color: #d9f2ff; /* celeste claro */\
+      text-align: center;\
+      margin: 0;\
+    \}\
+\
+    h1 \{\
+      background-color: #2b6cb0;\
+      color: white;\
+      padding: 20px;\
+      margin: 0;\
+      font-size: 28px;\
+    \}\
+\
+    .contenedor \{\
+      margin-top: 20px;\
+    \}\
+\
+    .producto \{\
+      background: white;\
+      margin: 15px;\
+      padding: 20px;\
+      border-radius: 10px;\
+      display: inline-block;\
+      width: 200px;\
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);\
+    \}\
+\
+    button \{\
+      background-color: #2b6cb0;\
+      color: white;\
+      border: none;\
+      padding: 10px;\
+      margin-top: 10px;\
+      cursor: pointer;\
+      border-radius: 5px;\
+      width: 100%;\
+    \}\
+\
+    button:hover \{\
+      background-color: #1a4f80;\
+    \}\
+\
+    .whatsapp \{\
+      margin: 30px;\
+      background-color: #25D366;\
+    \}\
+\
+    .whatsapp:hover \{\
+      background-color: #1ebe5d;\
+    \}\
+  </style>\
+</head>\
+\
+<body>\
+\
+  <h1>
+\f1 \uc0\u55358 \u56828 
+\f0  Productos de Limpieza RMZ</h1>\
+\
+  <div class="contenedor">\
+\
+    <div class="producto">\
+      <h3>Lavandina 1L</h3>\
+      <p>$1200</p>\
+      <button onclick="comprar('Lavandina 1L', 1200)">Comprar</button>\
+    </div>\
+\
+    <div class="producto">\
+      <h3>Detergente Lim\'f3n</h3>\
+      <p>$1500</p>\
+      <button onclick="comprar('Detergente Lim\'f3n', 1500)">Comprar</button>\
+    </div>\
+\
+    <div class="producto">\
+      <h3>Desinfectante de Piso</h3>\
+      <p>$1800</p>\
+      <button onclick="comprar('Desinfectante', 1800)">Comprar</button>\
+    </div>\
+\
+  </div>\
+\
+  <button class="whatsapp" onclick="whatsapp()">Contactar por WhatsApp</button>\
+\
+  <script>\
+    function comprar(nombre, precio) \{\
+      alert("Agregaste: " + nombre + " - $" + precio);\
+    \}\
+\
+    function whatsapp() \{\
+      window.open("https://wa.me/5491112345678", "_blank");\
+    \}\
+  </script>\
+\
+</body>\
+</html>}
